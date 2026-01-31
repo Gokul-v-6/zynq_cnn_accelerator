@@ -1,0 +1,8 @@
+Time resolution is 1 ps
+===============================
+✅ PASS: RTL matches GOLDEN
+First output latency = 138 cycles
+Total frame cycles  = 4103
+Throughput ≈ 0.936875 pixels/cycle
+===============================
+$finish called at time : 41135 ns : File "C:/Users/vgoku/CNN accelerator/CNN accelerator.srcs/sim_1/new/top_tb.v" Line 181

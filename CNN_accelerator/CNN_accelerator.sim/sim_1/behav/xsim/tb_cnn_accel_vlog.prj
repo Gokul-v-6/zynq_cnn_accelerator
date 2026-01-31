@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CNN accelerator.srcs/sources_1/new/axis_fifo.v" \
+"../../../../CNN accelerator.srcs/sources_1/new/axis_window.v" \
+"../../../../CNN accelerator.srcs/sources_1/new/cnn_accel_top.v" \
+"../../../../CNN accelerator.srcs/sources_1/new/conv3x3_relu.v" \
+"../../../../CNN accelerator.srcs/sim_1/new/top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

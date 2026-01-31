@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_cnn_accel_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_cnn_accel" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="42.425001 us"></ZoomEndTime>
+      <Cursor1Time time="41.704304 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="135"></NameColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/tb_cnn_accel/aclk" type="logic">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/aresetn" type="logic">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/s_axis_data" type="array">
+      <obj_property name="ElementShortName">s_axis_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/s_axis_valid" type="logic">
+      <obj_property name="ElementShortName">s_axis_valid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/s_axis_ready" type="logic">
+      <obj_property name="ElementShortName">s_axis_ready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/s_axis_last" type="logic">
+      <obj_property name="ElementShortName">s_axis_last</obj_property>
+      <obj_property name="ObjectShortName">s_axis_last</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/m_axis_data" type="array">
+      <obj_property name="ElementShortName">m_axis_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/m_axis_valid" type="logic">
+      <obj_property name="ElementShortName">m_axis_valid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/m_axis_ready" type="logic">
+      <obj_property name="ElementShortName">m_axis_ready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/m_axis_last" type="logic">
+      <obj_property name="ElementShortName">m_axis_last</obj_property>
+      <obj_property name="ObjectShortName">m_axis_last</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/img" type="array">
+      <obj_property name="ElementShortName">img[0:4095][7:0]</obj_property>
+      <obj_property name="ObjectShortName">img[0:4095][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/send_idx" type="array">
+      <obj_property name="ElementShortName">send_idx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">send_idx[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/recv_idx" type="array">
+      <obj_property name="ElementShortName">recv_idx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">recv_idx[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/errors" type="array">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/start_cycle" type="array">
+      <obj_property name="ElementShortName">start_cycle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">start_cycle[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/first_out" type="array">
+      <obj_property name="ElementShortName">first_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">first_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/end_cycle" type="array">
+      <obj_property name="ElementShortName">end_cycle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">end_cycle[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/cycles" type="array">
+      <obj_property name="ElementShortName">cycles[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycles[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/IMG_W" type="array">
+      <obj_property name="ElementShortName">IMG_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IMG_W[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/IMG_H" type="array">
+      <obj_property name="ElementShortName">IMG_H[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IMG_H[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/NPIX" type="array">
+      <obj_property name="ElementShortName">NPIX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NPIX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cnn_accel/dut/u_conv/win_valid" type="logic">
+      <obj_property name="ElementShortName">win_valid</obj_property>
+      <obj_property name="ObjectShortName">win_valid</obj_property>
+   </wvobject>
+</wave_config>
