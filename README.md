@@ -3,4 +3,5 @@ Hardware-accelerated CNN inference on Xilinx Zynq SoC using custom AXI-Stream IP
 
 ---
 ## Block Diagram
-<img width="502" height="995" alt="CNN_ip_block diagram drawio (1)" src="https://github.com/user-attachments/assets/7c83d674-8d53-43ea-9a41-92dcb126eaf6" />
+<img width="400" height="797" alt="CNN_ip_block diagram drawio (2)" src="https://github.com/user-attachments/assets/0dd902c0-231a-47bd-827d-bbcaf6665b5c" />
+
