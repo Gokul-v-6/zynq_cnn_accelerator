@@ -41,4 +41,18 @@ This hardware/software co-design significantly reduces processing time and CPU l
 -  **Hardware ReLU Activation** - Applies ReLU directly in FPGA logic (max(0,x)), removing negative values with miimal overhead.
 -  **Input and Output FIFOs** - 128 entry, 32-bit FIFOs decouple DMA bursts from compute, absorbing short-term rate mismatchs and preventing stalls.
 -  **Window Generator with line buffers** - Builds 3×3 neighborhoods using two line buffers and shift registers, producing one valid window per clock after initial stall.
+
+---
+## Performance Overview
+### Configuration
+- Image size : 640x480
+- Input Pixal width : 8-bit
+- Output Pixal width : 16-bit
+- FIFO Depth : 32
+- Window Size : 3x3
+### Latency
+- Inital latency due to window generator L= 2xIMG_W + 2 = 1282
+- Steady state S= 1 pixel/clock
+- Number of Pixels N= IMG_W x IMG_H
+- Total Cycles for one frame T= L + NxS
   
